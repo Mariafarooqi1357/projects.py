@@ -1,3 +1,4 @@
+#1. Create a dictionary of three books with author and price in a list. Print it
 books = {
     "Cold": {"author": "Amily", "price": "$48"},
     "HOSTEL": {"author": "Adison Nelson", "price": "$24"},
@@ -12,6 +13,9 @@ for title, info in books.items():
 
 #done mammraaa
 
+
+
+#2. Display the price of 'Keyboard' from the product dictionary.
 
 products = {
     "Laptop" : ("Dell", "$800"),
@@ -30,6 +34,8 @@ for poducts, (brand, price) in products.items():
 #raarrr
 
 
+#3.Display the course code of 'Python' from the course dictionary.
+
 course = {
     "Python": {"instructor": "DIddy", "duration": "8 weeks"},
     "JAVA": {"instructor": "TRump", "duration": "9 months"},
@@ -37,3 +43,16 @@ course = {
 
 }
 print(course["Python"])
+
+
+
+#4. Update the quantity of 'Pens' to 50 and print the updated record.
+dict = {
+    "Pens": {"quantity": 20, "price": "$2"},
+    "pencils": {"quantity": 30, "price": "$1"}
+}
+print(f"Before update: Pens = {dict['Pens']}")
+dict["Pens"]["quantity"] = 50 
+#or dict.update({"Pens": {"quantity": 50, "price": "$2"}})
+print(f"After update: Pens: {dict['Pens']}")
+
