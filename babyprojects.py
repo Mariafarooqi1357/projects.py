@@ -11,8 +11,6 @@ for title, info in books.items():
     print(f"Price: {info['price']}")
     print("-" * 20)         #line seperaahter
 
-#done mammraaa
-
 
 
 #2. Display the price of 'Keyboard' from the product dictionary.
