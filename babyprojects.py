@@ -71,4 +71,8 @@ employees = {
 print(f"Before update = {employees}")
 employees["ali"] = {"ID": "E004", "department": "Marketing"}
 print(f"After update = {employees}")
+for i in range(1, 2):
+    print(f"-" * 20)
+
+
 
