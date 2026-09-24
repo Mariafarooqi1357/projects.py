@@ -11,6 +11,8 @@ for title, info in books.items():
     print(f"Price: {info['price']}")
     print("-" * 20)         #line seperaahter
 
+#done mammraaa
+
 
 
 #2. Display the price of 'Keyboard' from the product dictionary.
@@ -53,4 +55,20 @@ print(f"Before update: Pens = {dict['Pens']}")
 dict["Pens"]["quantity"] = 50 
 #or dict.update({"Pens": {"quantity": 50, "price": "$2"}})
 print(f"After update: Pens: {dict['Pens']}")
+for i in range(1, 2):
+    print(f"-" * 20)
+
+
+
+
+#5. Add a new employee (ID and department in a list) using direct assignment
+employees = {
+    "Fatima" : {"ID": "E001", "department": "HR"},
+    "Rohan" : {"ID": "E002", "department": "Finance"},
+    "Aisha" : {"ID": "E003", "department": "IT"}
+}
+
+print(f"Before update = {employees}")
+employees["ali"] = {"ID": "E004", "department": "Marketing"}
+print(f"After update = {employees}")
 
