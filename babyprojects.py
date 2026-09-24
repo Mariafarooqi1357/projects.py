@@ -34,5 +34,6 @@ course = {
     "Python": {"instructor": "DIddy", "duration": "8 weeks"},
     "JAVA": {"instructor": "TRump", "duration": "9 months"},
     "C++": {"instructor": "A red indian", "duration": "5 seconds"}
-    
+
 }
+print(course["Python"])
