@@ -19,9 +19,9 @@ for title, info in books.items():
 
 products = {
     "Laptop" : ("Dell", "$800"),
-    "Smartphone" : ("bhaiya", "$600"),
-    "Headphones" : ("wawste", "$150"),
-    "keyboard" : ("maiya", "$100")
+    "Smartphone" : ("Samyoung", "$600"),
+    "Headphones" : ("jojo", "$150"),
+    "keyboard" : ("logitech", "$100")
 }
 for poducts, (brand, price) in products.items():
     print(f"Product: {poducts}")
@@ -32,12 +32,10 @@ for poducts, (brand, price) in products.items():
 
 
 #3.Display the course code of 'Python' from the course dictionary.
-
 course = {
     "Python": {"instructor": "DIddy", "duration": "8 weeks"},
     "JAVA": {"instructor": "TRump", "duration": "9 months"},
     "C++": {"instructor": "A red indian", "duration": "5 seconds"}
-
 }
 print(course["Python"])
 
