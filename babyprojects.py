@@ -11,7 +11,7 @@ for title, info in books.items():
     print(f"Price: {info['price']}")
     print("-" * 20)         #line seperaahter
 
-#done mammraaa
+
 
 
 
@@ -29,9 +29,6 @@ for poducts, (brand, price) in products.items():
     print(f"Price: {price}")
     print("-" * 20)         #line seperaahter
 
-
-#m the moggerr
-#raarrr
 
 
 #3.Display the course code of 'Python' from the course dictionary.
