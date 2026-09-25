@@ -11,7 +11,6 @@ for title, info in books.items():
     print(f"Price: {info['price']}")
     print("-" * 20)         #line seperaahter
 
-#done mammraaa
 
 
 
@@ -19,9 +18,9 @@ for title, info in books.items():
 
 products = {
     "Laptop" : ("Dell", "$800"),
-    "Smartphone" : ("bhaiya", "$600"),
-    "Headphones" : ("wawste", "$150"),
-    "keyboard" : ("maiya", "$100")
+    "Smartphone" : ("Hawai", "$600"),
+    "Headphones" : ("bannd", "$150"),
+    "keyboard" : ("Logitech", "$100")
 }
 for poducts, (brand, price) in products.items():
     print(f"Product: {poducts}")
@@ -44,7 +43,7 @@ course = {
 }
 print(course["Python"])
 
-
+#ee
 
 #4. Update the quantity of 'Pens' to 50 and print the updated record.
 dict = {
@@ -67,7 +66,6 @@ employees = {
     "Rohan" : {"ID": "E002", "department": "Finance"},
     "Aisha" : {"ID": "E003", "department": "IT"}
 }
-
 print(f"Before update = {employees}")
 employees["ali"] = {"ID": "E004", "department": "Marketing"}
 print(f"After update = {employees}")
@@ -76,3 +74,4 @@ for i in range(1, 2):
 
 
 
+#6. Add a new city (country and population in a list) using update()
