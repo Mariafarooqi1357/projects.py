@@ -74,4 +74,20 @@ for i in range(1, 2):
 
 
 
+
+
 #6. Add a new city (country and population in a list) using update()
+cities = {
+    "Islamabad" : ["Pakistan", "1.1million"],
+    "Tokyo" : ["Japan", "14million"],
+    "Bern" : ["Switzerland", "452,000"]
+}
+print(f"Before update cities = {cities}")
+cities.update({"New York": ["USA", "8.3 million"]})
+print(f"After update cities = {cities}")
+
+for cities, (country, population) in cities.items():
+    print(f"City: {cities}")
+    print(f"Country: {country}")
+    print(f"Population: {population}")
+    print("-" * 20)                                      #line seperaahter
