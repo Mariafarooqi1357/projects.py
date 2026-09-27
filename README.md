@@ -1,2 +1,2 @@
 # projects.py
-This folder includes all(not all 0.02%) of the assignments my professor gave me.
+This folder includes 2% of the assignments my professor gave me.
