@@ -106,5 +106,5 @@ attendance = {
 print(f"Before clearing attendance = {attendance}")
 attendance.clear()
 print(f"After clearing attendance = {attendance}")
-
+print(f"__________________code has been executed__________________")
 
