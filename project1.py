@@ -91,3 +91,20 @@ for cities, (country, population) in cities.items():
     print(f"Country: {country}")
     print(f"Population: {population}")
     print("-" * 20)                                      #line seperaahter
+
+
+
+
+#7. Use clear() to empty an attendance dictionary and display it.
+attendance = {
+    "Donald" : "present",
+    "Hillary" : "absent",
+    "anderson" : "present",
+    "kate" : "absent",
+    "Johnathan" : "present"
+}
+print(f"Before clearing attendance = {attendance}")
+attendance.clear()
+print(f"After clearing attendance = {attendance}")
+
+
