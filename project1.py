@@ -108,3 +108,18 @@ attendance.clear()
 print(f"After clearing attendance = {attendance}")
 print(f"__________________code has been executed__________________")
 
+
+
+
+
+
+#8. Display only the destination names from a ticket-price dictionary using keys().
+tickets_price = {
+    "New York" : "$500",
+    "London" : "$700",
+    "Paris" : "$600",
+    "Tokyo" : "$800"
+}
+print(f"Destination names: {list(tickets_price.keys())}")
+
+print("-" * 20)         #line seperaahter
