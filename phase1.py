@@ -17,3 +17,9 @@ print(len(my_string))             #output: 13
 print(my_string.count("o"))        #output: 2
 print((my_string[1:3]))            #output: el
 
+
+my_str_1 = 'Hello'
+my_str_2 = "World"
+
+str_plus_str = my_str_1 + '--' + my_str_2
+print(str_plus_str)                         #output: Hello-- World
