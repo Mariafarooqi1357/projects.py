@@ -10,3 +10,5 @@ print(my_string.replace("World", "Python"))  #output: Hello, Python
 print(my_string.split(","))       #output: ['Hello', ' World']
 print(my_string.startswith("Hello"))  #output: True
 print(my_string.endswith("World"))    #output: True
+
+print(my_string.find("World"))    #output: 7
