@@ -12,3 +12,8 @@ print(my_string.startswith("Hello"))  #output: True
 print(my_string.endswith("World"))    #output: True
 
 print(my_string.find("World"))    #output: 7
+
+print(len(my_string))             #output: 13
+print(my_string.count("o"))        #output: 2
+print((my_string[1:3]))            #output: el
+
