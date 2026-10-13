@@ -30,3 +30,9 @@ print(str_plus_str)                         #output: Hello-- World
 string = "Hello world"
 print(string.upper())
 print(string.lower())
+
+print(string.startswith("Hello"))                  #true
+print(string.endswith("world"))                    #true
+
+print(string.strip())
+print(string.replace("Hello", "Hi"))                #Hi world
