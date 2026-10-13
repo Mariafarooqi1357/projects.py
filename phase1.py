@@ -23,3 +23,10 @@ my_str_2 = "World"
 
 str_plus_str = my_str_1 + '--' + my_str_2
 print(str_plus_str)                         #output: Hello-- World
+
+
+
+
+string = "Hello world"
+print(string.upper())
+print(string.lower())
